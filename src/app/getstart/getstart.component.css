@@ -1,0 +1,68 @@
+/* First Page Css */
+
+.start {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  color: #132c45;
+  background: rgb(0, 0, 0);
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+.slog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.slog img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  width:auto;
+}
+.slog h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 500;
+}
+.exp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.exp p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 280px;
+}
+.exp img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.exp button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 300px;
+  background-color: #44538d;
+}

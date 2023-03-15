@@ -1,0 +1,16 @@
+<app-navbar></app-navbar>
+<div class="melodies">
+  <div class="melosong">
+    <h1>Melodies</h1>
+  </div>
+  <div class="songmelody">
+    <mat-grid-list class="melogrid" cols="7" rowHeight="1:1" gutterSize="20px">
+      <mat-grid-tile (click)="mSong(item.song)" *ngFor="let item of melodies"
+        style="background-image:url('{{item.image}}');background-size: cover;background-repeat: no-repeat;">
+        <h4>{{item.name}}</h4>
+        <audio controls src={{item.song}}></audio>
+      </mat-grid-tile>
+    </mat-grid-list>
+  </div>
+</div>
+<app-footer></app-footer>

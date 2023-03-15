@@ -1,0 +1,14 @@
+<app-navbar></app-navbar>
+<div class="backicon">
+  <mat-icon routerLink="/home" id="backward">arrow_back</mat-icon>
+  <h3>Sleep</h3>
+  <mat-icon id="alarm">access_alarm</mat-icon>
+</div>
+<div class="dsleep">
+  <div class="sleep" *ngFor="let item of data ">
+    <mat-card (click)="deepsleep(item.id)" class="sleepcard">
+      <img mat-card-image src="{{item.image}}" alt="">
+      <mat-card-title>{{item.name}}</mat-card-title>
+    </mat-card>
+  </div>
+</div>

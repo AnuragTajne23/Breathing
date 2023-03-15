@@ -1,0 +1,126 @@
+/* Footer Bar css */
+
+.foot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: sticky;
+  bottom: 0;
+  width: auto;
+  padding: 5px;
+  padding-bottom: 0;
+  background-color: white;
+}
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+.sleep {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+.meditate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+.relax {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+.setting {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 480px) {
+  .foot {
+    padding-top: 12px;
+    padding-bottom: 0;
+  }
+  .foot mat-card-content {
+    font-size: 10px;
+  }
+  .home {
+    margin-right: 6px;
+  }
+  .sleep {
+    margin-left: 6px;
+  }
+  .meditate {
+    margin-left: 6px;
+  }
+  .relax {
+    margin-left: 14px;
+  }
+  .setting {
+    margin-left: 14px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 1080px) {
+  .foot {
+    padding-top: 12px;
+    padding-bottom: 0;
+  }
+  .foot mat-card-content {
+    font-size: 12px;
+  }
+  .home {
+    margin-right: 25px;
+  }
+  .sleep {
+    margin-left: 25px;
+  }
+  .meditate {
+    margin-left: 30px;
+  }
+  .relax {
+    margin-left: 40px;
+  }
+  .setting {
+    margin-left: 40px;
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  .foot {
+    padding-top: 12px;
+    padding-bottom: 0;
+  }
+  .foot mat-card-content {
+    font-size: 12px;
+  }
+  .home {
+    margin-right: 25px;
+  }
+  .sleep {
+    margin-left: 25px;
+  }
+  .meditate {
+    margin-left: 30px;
+  }
+  .relax {
+    margin-left: 40px;
+  }
+  .setting {
+    margin-left: 40px;
+  }
+}

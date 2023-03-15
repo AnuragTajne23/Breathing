@@ -1,0 +1,38 @@
+<!-- NavBar Section -->
+
+<div class="navi">
+  <mat-toolbar class="nav">
+    <button mat-icon-button>
+      <mat-icon>menu</mat-icon>
+    </button>
+    <mat-icon>music_note</mat-icon>
+    <span>Breathing</span>
+    <span class="example-spacer"></span>
+    <button mat-icon-button>
+      <mat-icon>notifications</mat-icon>
+    </button>
+    <button mat-icon-button [matMenuTriggerFor]="menu">
+      <mat-icon>account_circle</mat-icon>
+    </button>
+    <mat-menu #menu="matMenu">
+      <a>
+        <button mat-menu-item>
+          <mat-icon>account_circle</mat-icon>
+          <span>Profile</span>
+        </button>
+      </a>
+      <a>
+        <button mat-menu-item>
+          <mat-icon>account_balance_circle</mat-icon>
+          <span>My Account</span>
+        </button>
+      </a>
+      <a routerLink="/">
+        <button mat-menu-item>
+          <mat-icon>logout_circle</mat-icon>
+          <span>Logout</span>
+        </button>
+      </a>
+    </mat-menu>
+  </mat-toolbar>
+</div>

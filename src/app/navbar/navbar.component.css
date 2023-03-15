@@ -1,0 +1,38 @@
+/* NavBar Css */
+
+.navi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  width: 100%;
+  z-index: 1;
+}
+.nav {
+  background-color: #5a4991;
+  color: #f2f0f3;
+}
+.example-spacer {
+  flex: 1 1 auto;
+}
+.nav span {
+  padding: 10px;
+}
+
+/* Media Queries */
+
+@media screen and (min-width: 1080px) {
+  .navi {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 780px) {
+  .navi {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .navi {
+    width: 100%;
+  }
+}

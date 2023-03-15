@@ -1,0 +1,157 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lobster&family=Roboto&family=Zeyada&display=swap");
+
+.songs {
+  display: flex;
+  justify-content: center;
+  bottom: 0;
+  padding-bottom: 0;
+  width: auto;
+  height: 80.5%;
+  background: #22c1c3;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fdbb2d, #22c1c3);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fdbb2d, #22c1c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+.playlist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.songcard {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.songcard h2 {
+  font-family: "Dancing Script";
+  font-size: 40px;
+  color: rgb(10, 7, 63);
+}
+.songcard img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: 20vh;
+  border-radius: 100%;
+}
+.musiclist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  width: auto;
+}
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon mat-icon {
+  margin: 22px;
+}
+
+@media screen and (max-width: 480px) {
+  .songs {
+    padding-top: 12px;
+    padding-bottom: 0;
+    width: 100%;
+    height: 83%;
+  }
+  .playlist {
+    display: flex;
+    justify-content: center;
+  }
+  .songcard {
+    display: flex;
+    height: auto;
+  }
+  .songcard h2 {
+    font-size: 30px;
+  }
+  .songcard img {
+    display: flex;
+    width: 25%;
+    height: 13vh;
+  }
+  .musiclist{
+    margin: 5px;
+    width: 100%;
+  }
+  .icon mat-icon{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 1080px) {
+  .songs {
+    padding-top: 12px;
+    padding-bottom: 0;
+    width: 100%;
+    height: 83%;
+  }
+  .playlist {
+    display: flex;
+    justify-content: center;
+  }
+  .songcard {
+    display: flex;
+    height: auto;
+  }
+  .songcard h2 {
+    font-size: 30px;
+  }
+  .songcard img {
+    display: flex;
+    width: 25%;
+    height: 13vh;
+  }
+  .musiclist{
+    margin: 5px;
+    width: 100%;
+  }
+  .icon mat-icon{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+  }
+}
+
+@media screen and (min-width:1080) and (max-width:1380px) {
+  .songs {
+    padding-top: 12px;
+    padding-bottom: 0;
+    width: 100%;
+    height: 83%;
+  }
+  .playlist {
+    display: flex;
+    justify-content: center;
+  }
+  .songcard {
+    display: flex;
+    height: auto;
+  }
+  .songcard h2 {
+    font-size: 30px;
+  }
+  .songcard img {
+    display: flex;
+    width: 25%;
+    height: 13vh;
+  }
+  .musiclist{
+    margin: 5px;
+    width: 100%;
+  }
+  .icon mat-icon{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+  }
+}

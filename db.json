@@ -1,0 +1,385 @@
+{
+  "Meditations": [
+    {
+      "id": 1,
+      "title": "Daily Meditation",
+      "image": "https://cdn.pixabay.com/photo/2016/11/03/04/02/boys-1793421_960_720.jpg",
+      "song": [
+        "../../assets/music/Daily-Motivation/Daily-Motivation1.mp3",
+        "../../assets/music/Daily-Motivation/Daily-Motivation2.mp3",
+        "../../assets/music/Daily-Motivation/Daily-Motivation3.mp3",
+        "../../assets/music/Daily-Motivation/Daily-Motivation4.mp3"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Relaxation",
+      "image": "https://cdn.pixabay.com/photo/2020/02/15/00/33/yoga-4849681_960_720.jpg",
+      "song": [
+        "../../assets/music/Relaxation/Calm.mp3",
+        "../../assets/music/Relaxation/calming-sounds-124055.mp3",
+        "../../assets/music/Relaxation/endless-by-prabajithk-118998.mp3",
+        "../../assets/music/Relaxation/healing-music-121007.mp3"
+
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Mental Health",
+      "image": "https://cdn.pixabay.com/photo/2016/12/28/11/32/namaste-1935938_960_720.jpg",
+      "song": [
+        "../../assets/music/Mental-health/Mental-health.mp3",
+        "../../assets/music/Mental-health/Mental-health1.mp3",
+        "../../assets/music/Mental-health/Mental-health3.mp3",
+        "../../assets/music/Mental-health/Mental-health4.mp3"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Nature Sound",
+      "image": "https://cdn.pixabay.com/photo/2020/07/06/07/19/meditate-5375835_960_720.jpg",
+      "song": [
+        "../../assets/music/Nature-sound/Nature1.mp3",
+        "../../assets/music/Nature-sound/Nature2.mp3",
+        "../../assets/music/Nature-sound/Nature3.mp3",
+        "../../assets/music/Nature-sound/Nature4.mp3"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Heaven",
+      "image": "https://cdn.pixabay.com/photo/2018/01/21/12/45/sunset-3096495_960_720.jpg",
+      "song": [
+        "../../assets/music/Heaven/Heaven1.mp3",
+        "../../assets/music/Heaven/Heaven2.mp3",
+        "../../assets/music/Heaven/Heaven3.mp3",
+        "../../assets/music/Heaven/Heaven4.mp3"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Breathing",
+      "image": "https://cdn.pixabay.com/photo/2016/03/29/00/22/meditation-1287207_960_720.jpg",
+      "song": [
+        "../../assets/music/Breathing/Breathing1.mp3",
+        "../../assets/music/Breathing/Breathing2.mp3",
+        "../../assets/music/Breathing/Breathing3.mp3",
+        "../../assets/music/Breathing/Breathing4.mp3"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Sky Walk",
+      "image": "https://cdn.pixabay.com/photo/2016/11/18/15/05/beach-1835213_960_720.jpg",
+        "song": [
+        "../../assets/music/Sky-walk/Sky-walk1.mp3",
+        "../../assets/music/Sky-walk/Sky-walk2.mp3",
+        "../../assets/music/Sky-walk/Sky-walk3.mp3",
+        "../../assets/music/Sky-walk/Sky-walk4.mp3"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Mountains",
+      "image": "https://cdn.pixabay.com/photo/2020/10/05/18/58/woman-5630490_960_720.jpg",
+      "song": [
+        "../../assets/music/Mountains/Mountain1.mp3",
+        "../../assets/music/Mountains/Mountain2.mp3",
+        "../../assets/music/Mountains/Mountain3.mp3",
+        "../../assets/music/Mountains/Mountain4.mp3"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Mind Theropy",
+      "image": "https://cdn.pixabay.com/photo/2014/10/08/13/16/children-480112_960_720.jpg",
+      "song": [
+        "../../assets/music/Mountains/Mountain1.mp3",
+        "../../assets/music/Mountains/Mountain2.mp3",
+        "../../assets/music/Mountains/Mountain3.mp3",
+        "../../assets/music/Mountains/Mountain4.mp3"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Waterfall",
+      "image": "https://cdn.pixabay.com/photo/2020/03/17/13/19/landscape-4940330_960_720.jpg",
+      "song": [
+        "../../assets/music/Melodies/Waterfall.mp3",
+        "../../assets/music/Melodies/Tornado.mp3",
+        "../../assets/music/Melodies/Rain.mp3",
+        "../../assets/music/Melodies/Ocean.mp3"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Stone",
+      "image": "https://cdn.pixabay.com/photo/2017/01/07/16/01/feng-shui-1960783_960_720.jpg",
+      "song": [
+        "../../assets/music/Melodies/Snow.mp3",
+        "../../assets/music/Melodies/Relax.mp3",
+        "../../assets/music/Melodies/Sand.mp3",
+        "../../assets/music/Melodies/Wind.mp3"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Forest",
+      "image": "https://cdn.pixabay.com/photo/2015/06/19/21/24/avenue-815297_1280.jpg",
+      "song": [
+        "../../assets/music/Melodies/Forest.mp3",
+        "../../assets/music/Melodies/Birds.mp3",
+        "../../assets/music/Melodies/Night.mp3",
+        "../../assets/music/Melodies/Nature.mp3"
+      ]
+    }
+  ],
+  "user": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "fname": "Anurag Tajne",
+      "email": "anuragtajne73@gmail.com",
+      "password": "Pass@1234",
+      "id": 2
+    },
+    {
+      "fname": "Tushar Payghan",
+      "email": "tusharp@gmail.com",
+      "password": "Pass@1234",
+      "id": 3
+    },
+    {
+      "fname": "Deepak Kalal",
+      "email": "deepak@gmail.com",
+      "password": "Pass@1234",
+      "id": 4
+    },
+    {
+      "fname": "Vaibhav Kaydinge",
+      "email": "vaibhav@gmail.com",
+      "password": "Pass@1234",
+      "id": 5
+    }
+  ],
+  "sleep": [
+    {
+      "id": 1,
+      "name": "Peaceful Sleep",
+      "image": "https://images.unsplash.com/photo-1525169267298-12532cf95139?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "song": [
+        "../../assets/music/Heaven/Heaven1.mp3",
+        "../../assets/music/Heaven/Heaven2.mp3",
+        "../../assets/music/Heaven/Heaven3.mp3",
+        "../../assets/music/Heaven/Heaven4.mp3"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Gratitude Body Scan for Sleep",
+      "image": "https://images.unsplash.com/photo-1534234804510-51174f242445?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nzd8fHNsZWVwfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "song": [
+        "../../assets/music/Heaven/Heaven1.mp3",
+        "../../assets/music/Heaven/Heaven2.mp3",
+        "../../assets/music/Heaven/Heaven3.mp3",
+        "../../assets/music/Heaven/Heaven4.mp3"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Journey Into Sleep",
+      "image": "https://as2.ftcdn.net/v2/jpg/02/08/47/09/1000_F_208470960_KzoHfQbtW4Gqhd60UHqJURvDWIoV2ZdD.jpg",
+      "song": [
+        "../../assets/music/Heaven/Heaven1.mp3",
+        "../../assets/music/Heaven/Heaven2.mp3",
+        "../../assets/music/Heaven/Heaven3.mp3",
+        "../../assets/music/Heaven/Heaven4.mp3"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Unwind Into Sleep",
+      "image": "https://images.unsplash.com/photo-1585577529540-a8095ea25427?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzB8fHNsZWVwfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "song": [
+        "../../assets/music/Heaven/Heaven1.mp3",
+        "../../assets/music/Heaven/Heaven2.mp3",
+        "../../assets/music/Heaven/Heaven3.mp3",
+        "../../assets/music/Heaven/Heaven4.mp3"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Night Time Gratitude",
+      "image": "https://images.unsplash.com/photo-1517487998869-0e946c62b04e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "song": [
+        "../../assets/music/Heaven/Heaven1.mp3",
+        "../../assets/music/Heaven/Heaven2.mp3",
+        "../../assets/music/Heaven/Heaven3.mp3",
+        "../../assets/music/Heaven/Heaven4.mp3"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "7 Days of Sleep",
+      "image": "https://cdn.pixabay.com/photo/2016/04/26/03/11/sleeping-1353562_960_720.jpg",
+      "song": [
+        "../../assets/music/Heaven/Heaven1.mp3",
+        "../../assets/music/Heaven/Heaven2.mp3",
+        "../../assets/music/Heaven/Heaven3.mp3",
+        "../../assets/music/Heaven/Heaven4.mp3"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Soothing the Body for Rest",
+      "image": "https://cdn.pixabay.com/photo/2016/12/30/17/27/cat-1941089_960_720.jpg",
+      "song": [
+        "../../assets/music/Heaven/Heaven1.mp3",
+        "../../assets/music/Heaven/Heaven2.mp3",
+        "../../assets/music/Heaven/Heaven3.mp3",
+        "../../assets/music/Heaven/Heaven4.mp3"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Bedtime Body Scan",
+      "image": "https://cdn.pixabay.com/photo/2019/10/21/13/35/model-4566104_960_720.jpg",
+      "song": [
+        "../../assets/music/Heaven/Heaven1.mp3",
+        "../../assets/music/Heaven/Heaven2.mp3",
+        "../../assets/music/Heaven/Heaven3.mp3",
+        "../../assets/music/Heaven/Heaven4.mp3"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Connecting With the Night",
+      "image": "https://images.unsplash.com/photo-1606162307024-a1343187a5b4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "song": [
+        "../../assets/music/Heaven/Heaven1.mp3",
+        "../../assets/music/Heaven/Heaven2.mp3",
+        "../../assets/music/Heaven/Heaven3.mp3",
+        "../../assets/music/Heaven/Heaven4.mp3"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Softly Back to Sleep",
+      "image": "https://images.unsplash.com/photo-1535987271305-c26a8935f74a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1300&q=80",
+      "song": [
+        "../../assets/music/Heaven/Heaven1.mp3",
+        "../../assets/music/Heaven/Heaven2.mp3",
+        "../../assets/music/Heaven/Heaven3.mp3",
+        "../../assets/music/Heaven/Heaven4.mp3"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Quieting the Mind and Body",
+      "image": "https://images.unsplash.com/photo-1470777639313-60af88918203?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDJ8fHNsZWVwfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "song": [
+        "../../assets/music/Heaven/Heaven1.mp3",
+        "../../assets/music/Heaven/Heaven2.mp3",
+        "../../assets/music/Heaven/Heaven3.mp3",
+        "../../assets/music/Heaven/Heaven4.mp3"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Deep Sleep",
+      "image": "https://images.unsplash.com/photo-1510632233616-88025944e960?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "song": [
+        "../../assets/music/Heaven/Heaven1.mp3",
+        "../../assets/music/Heaven/Heaven2.mp3",
+        "../../assets/music/Heaven/Heaven3.mp3",
+        "../../assets/music/Heaven/Heaven4.mp3"
+      ]
+    }
+  ],
+  "melodies": [
+    {
+      "id": 1,
+      "name": "Birds",
+      "image": "https://images.unsplash.com/photo-1535083783855-76ae62b2914e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjl8fGJpcmR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+      "song": "../../assets/music/Melodies/Birds.mp3"
+    },
+    {
+      "id": 2,
+      "name": "Forest",
+      "image": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=841&q=80",
+      "song": "../../assets/music/Melodies/Forest.mp3"
+    },
+    {
+      "id": 3,
+      "name": "Hazzard",
+      "image": "https://images.unsplash.com/photo-1608121173921-a619ba3bb163?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "song": "../../assets/music/Melodies/Hazzard.mp3"
+    },
+    {
+      "id": 4,
+      "name": "Lake",
+      "image": "https://images.unsplash.com/photo-1583244685026-d8519b5e3d21?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "song": "../../assets/music/Melodies/Lake.mp3"
+    },
+    {
+      "id": 5,
+      "name": "Nature",
+      "image": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1274&q=80",
+      "song": "../../assets/music/Melodies/Nature.mp3"
+    },
+    {
+      "id": 6,
+      "name": "Night",
+      "image": "https://images.unsplash.com/photo-1468476396571-4d6f2a427ee7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1279&q=80",
+      "song": "../../assets/music/Melodies/Night.mp3"
+    },
+    {
+      "id": 7,
+      "name": "Ocean",
+      "image": "https://images.unsplash.com/photo-1553570739-330b8db8a925?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "song": "../../assets/music/Melodies/Ocean.mp3"
+    },
+    {
+      "id": 8,
+      "name": "Rain",
+      "image": "https://images.unsplash.com/photo-1498847559558-1e4b1a7f7a2f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "song": "../../assets/music/Melodies/Rain.mp3"
+    },
+    {
+      "id": 9,
+      "name": "Relax",
+      "image": "https://images.unsplash.com/photo-1481833761820-0509d3217039?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "song": "../../assets/music/Melodies/Relax.mp3"
+    },
+    {
+      "id": 10,
+      "name": "Sand",
+      "image": "https://images.unsplash.com/photo-1547280528-5f9e9bfdef9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "song": "../../assets/music/Melodies/Sand.mp3"
+    },
+    {
+      "id": 11,
+      "name": "Tornado",
+      "image": "https://images.unsplash.com/photo-1581059729226-c493d3086748?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=859&q=80",
+      "song": "../../assets/music/Melodies/Tornado.mp3"
+    },
+    {
+      "id": 12,
+      "name": "Waterfall",
+      "image": "https://images.unsplash.com/photo-1564500601744-d5dfe4e7ab72?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "song": "../../assets/music/Melodies/Waterfall.mp3"
+    },
+    {
+      "id": 13,
+      "name": "Wind",
+      "image": "https://images.unsplash.com/12/barley.jpg?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "song": "../../assets/music/Melodies/Wind.mp3"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

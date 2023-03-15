@@ -1,0 +1,104 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lobster&family=Roboto&family=Zeyada&display=swap");
+
+/* HomePage css */
+
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: rgb(0, 0, 0);
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+.first {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(73, 62, 108);
+}
+.first h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 3px;
+  font-size: 50px;
+  font-family: "Dancing Script";
+}
+.first button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lobster";
+  border: solid 1px rgb(73, 62, 108);
+  z-index: 0;
+}
+.date {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 0;
+}
+.date button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px rgb(73, 62, 108);
+}
+.homeimg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mod {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.mod h1 {
+  display: flex;
+  margin-left: 25px;
+  justify-content: center;
+  align-items: center;
+  color: darkblue;
+}
+
+/* Media Queries Section */
+
+@media screen and (min-width: 1080px) {
+  .home {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 780px) {
+  .home {
+    width: 100%;
+  }
+  .homeimg {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .home {
+    width: 100%;
+  }
+  .homeimg {
+    width: 100%;
+  }
+  .first h1 {
+    font-size: 25px;
+  }
+  .mod h1 {
+    font-size: 15px;
+  }
+}

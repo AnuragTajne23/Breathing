@@ -1,0 +1,67 @@
+/* Signing Css */
+
+.signup {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  background: rgb(0, 0, 0);
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+.asset {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.asset img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  margin-left: 10px;
+}
+.breath {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.breath img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  width: 100%;
+}
+.breath h1 {
+  font-weight: 500;
+}
+.signup button {
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  background-color: #4c5ca6;
+}
+.signup button:hover {
+  background-color: #2f3d7d;
+}
+.signup p {
+  color: rgb(94, 93, 93);
+  opacity: 3;
+}
+.signup a {
+  color: blue;
+}

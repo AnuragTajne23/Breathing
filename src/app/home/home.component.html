@@ -1,0 +1,36 @@
+<!-- Navbar Section -->
+
+<app-navbar></app-navbar>
+
+<!-- HomePage Section -->
+
+<div class="home">
+  <br>
+  <div class="first">
+    <h1>{{Wish}},Dear</h1>
+    <br>
+    <button mat-stroked-button color="primary">{{mydate | date:'EEEE, d MMMM'}} </button>
+  </div>
+  <br>
+  <div class="date">
+    <button mat-stroked-button color="primary">{{mydate | date:'shortTime'}} </button>
+  </div>
+  <div>
+    <img class="homeimg" src="../../assets/Images/1__1_-removebg-preview.png" alt="">
+  </div>
+</div>
+<br>
+<div class="mod">
+  <h1><mat-icon>music_note</mat-icon> Meditation</h1>
+</div>
+<hr>
+
+<!-- Card Section -->
+
+<app-gallary></app-gallary>
+
+<!-- Footer Bar Section -->
+
+<app-footer></app-footer>
+
+

@@ -1,0 +1,22 @@
+<app-navbar></app-navbar>
+<div class="songs">
+  <div class="playlist">
+    <div class="songcard">
+      <br>
+      <h2>{{ playsong.title }}</h2>
+      <br>
+      <img src="{{ playsong.image }}" alt="">
+      <br>
+      <div class="musiclist" *ngFor="let item of playsong.song">
+        <audio controls src="{{item}}"></audio>
+      </div>
+      <div class="icon">
+        <mat-icon>favorite_border</mat-icon>
+        <mat-icon>playlist_add</mat-icon>
+        <mat-icon>alarm</mat-icon>
+        <mat-icon>more_vert</mat-icon>
+      </div>
+    </div>
+  </div>
+</div>
+<app-footer></app-footer>

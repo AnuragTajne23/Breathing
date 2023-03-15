@@ -1,0 +1,64 @@
+<!-- Login Page Section -->
+
+<div class="login">
+  <div class="icon">
+    <mat-icon routerLink="/" id="brr">arrow_back</mat-icon>
+  </div>
+  <div class="logimg">
+    <img src="../../assets/Images/download.png" alt="">
+  </div>
+  <br>
+  <div class="wel">
+    <h3>Welcome Back !</h3>
+  </div>
+  <div class="fbut">
+    <button mat-fab extended>
+      <mat-icon>facebook</mat-icon>
+      Continue with Facebook
+    </button><br>
+    <div class="google">
+      <button mat-fab extended>
+        <mat-icon><img src="../../assets/Images/google-logo-9824.png" alt=""></mat-icon>
+        Continue with Google
+      </button>
+    </div>
+  </div>
+  <br>
+  <br>
+  <form class="logmail" [formGroup]="loginuser">
+    <h3>OR LOG IN WITH EMAIL</h3>
+    <mat-form-field appearance="outline">
+        <mat-label>Enter your email</mat-label>
+        <input matInput placeholder="pat@example.com" formControlName="email" required>
+        <mat-error *ngIf="email && email.invalid && email.touched">
+          <small *ngIf="email?.hasError('required')" class="small">Email is required</small>
+          <small *ngIf="email?.hasError('email')" class="small">Email is Incorrect</small>
+        </mat-error>
+        <button mat-icon-button matSuffix>
+          <mat-icon>email</mat-icon>
+        </button>
+      </mat-form-field>
+    <mat-form-field appearance="outline">
+      <mat-label>Enter your password</mat-label>
+      <input matInput class="formControl" formControlName="password" [type]="hide ? 'password' : 'text'">
+      <mat-error *ngIf="password && password.invalid && password.touched">
+        <small *ngIf="password?.hasError('required')" class="small">Password is required</small>
+        <small *ngIf="password?.hasError('pattern')" class="small">Password is Incorrect</small>
+      </mat-error>
+      <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'"
+        [attr.aria-pressed]="hide">
+        <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+      </button>
+    </mat-form-field>
+  </form>
+  <div class="low">
+    <button (click)="signing()" mat-fab extended>
+      LOG IN
+    </button>
+    <br>
+    <p>Forget password</p>
+  </div>
+  <div class="new">
+    <h4>New User? <a routerLink="/createaccount"> SIGN UP</a></h4>
+  </div>
+</div>

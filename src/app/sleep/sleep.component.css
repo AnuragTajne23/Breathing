@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lobster&family=Roboto&family=Zeyada&display=swap");
+.backicon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.backicon h3 {
+  font-family: "Dancing Script";
+  font-size: 35px;
+  color: rgb(10, 7, 63);
+}
+#backward {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px rgb(128, 22, 22);
+  border-radius: 30px;
+  cursor: pointer;
+}
+#alarm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dsleep{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin: 20px;
+}
+.sleepcard{
+  max-width: 400px;
+  max-height: 300px;
+  padding: 10px;
+  margin: 7px;
+  cursor: pointer;
+}
+.sleepcard img{
+  height: 50vh;
+  width: 100%;
+}
+.sleepcard mat-card-title{
+  text-align: center;
+  font-size: medium;
+}
+
+@media screen and (max-width: 480px) {
+  .backicon {
+    padding-top: 10px;
+  }
+  #backward {
+    margin-right: 100px;
+  }
+  #alarm {
+    margin-left: 100px;
+  }
+  .dsleep{
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .sleepcard{
+    margin: 4px;
+    padding: 0;
+  }
+  .sleepcard img{
+    height: 20vh;
+    width: 100%;
+  }
+  .sleepcard mat-card-title {
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 1080px) {
+  .backicon {
+    padding-top: 10px;
+  }
+  #backward {
+    margin-right: 200px;
+  }
+  #alarm {
+    margin-left: 200px;
+  }
+  .dsleep{
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+  .sleepcard{
+    margin: 4px;
+    padding: 0;
+  }
+  .sleepcard img{
+    height: 20vh;
+    width: 100%;
+  }
+  .sleepcard mat-card-title {
+    font-size: 11px;
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  .backicon {
+    padding-top: 10px;
+  }
+  #backward {
+    margin-right: 490px;
+  }
+  #alarm {
+    margin-left: 490px;
+  }
+}

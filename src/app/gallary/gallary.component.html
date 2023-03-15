@@ -1,0 +1,77 @@
+<!-- Card Section -->
+
+<div class="music">
+  <div class="library" *ngFor="let item of imgName">
+    <mat-card (click)="Songs(item.id)" class="card">
+      <img mat-card-image src="{{ item.image }}" alt="">
+      <mat-card-title>{{ item.title }}</mat-card-title>
+    </mat-card>
+  </div>
+</div>
+
+<!-- Footer Menu Section -->
+
+<div class="footer">
+  <div class="dailymed">
+    <table>
+      <tr>
+        Daily Meditation
+      </tr>
+      <th>
+        <hr>
+      </th>
+      <tr>Sleep</tr>
+      <tr>Relax</tr>
+      <tr>Calm</tr>
+      <tr>Mental Health</tr>
+    </table>
+  </div>
+  <div class="sleepmed">
+    <table>
+      <tr>Sleep Meditation
+      </tr>
+      <th>
+        <hr>
+      </th>
+      <tr>Peaceful Sleep</tr>
+      <tr>Gratitude Sleep</tr>
+      <tr>Night Gratitude</tr>
+      <tr>Deep Sleep</tr>
+    </table>
+  </div>
+  <div class="relaxmed">
+    <table>
+      <tr>Relax Meditation
+      </tr>
+      <th>
+        <hr>
+      </th>
+      <tr>Sleep Relaxation</tr>
+      <tr>Mental Relax</tr>
+      <tr>Nature Relax</tr>
+      <tr>Sky Walk</tr>
+    </table>
+  </div>
+  <div class="calmmed">
+    <table>
+      <tr>Calm Meditation
+      </tr>
+      <th>
+        <hr>
+      </th>
+      <tr>Mental Health</tr>
+      <tr>Mind Therapy</tr>
+      <tr>Heaven</tr>
+      <tr>Mentally Relax</tr>
+    </table>
+  </div>
+</div>
+
+<!-- Copyrights Section -->
+
+<div class="rights">
+  <p>@ 2023 Breathings. All Rights Reserved! &nbsp;</p>
+  <p>Privacy Policy</p>
+  &nbsp;
+  <p>Cookies Policy</p>
+</div>

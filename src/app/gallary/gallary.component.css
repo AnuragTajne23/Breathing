@@ -1,0 +1,119 @@
+/* Css */
+/* Parent Div css */
+
+.music {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin: 20px;
+}
+
+/* Card Div css */
+
+.card {
+  max-width: 400px;
+  max-height: 300px;
+  padding: 10px;
+  margin: 7px;
+  cursor: pointer;
+}
+.card img {
+  height: 50vh;
+  width: 100%;
+}
+.card mat-card-title {
+  text-align: center;
+  font-size: medium;
+}
+
+/* Footer Menu Section */
+
+.footer {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  flex-direction: column;
+  /* float: left; */
+  width: auto;
+  color: rgb(252, 252, 252);
+  background-color: rgb(54, 54, 109);
+}
+.dailymed {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  margin: 20px;
+}
+.sleepmed {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  margin: 20px;
+}
+.relaxmed {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  margin: 20px;
+}
+.calmmed {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  margin: 20px;
+}
+
+/* Copyrights Section css*/
+
+.rights {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  color: rgb(252, 252, 252);
+  background-color: rgb(54, 54, 109);
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 480px) {
+  .music {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .card {
+    margin: 4px;
+    padding: 0;
+  }
+  .card img {
+    height: 20vh;
+    width: 100%;
+  }
+  .card mat-card-title {
+    font-size: 10px;
+  }
+  .footer {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 1080px) {
+  .music {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+  .card {
+    margin: 4px;
+    padding: 0;
+  }
+  .card img {
+    height: 20vh;
+    width: 100%;
+  }
+  .card mat-card-title {
+    font-size: 15px;
+  }
+  .footer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 100%;
+  }
+}

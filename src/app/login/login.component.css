@@ -1,0 +1,129 @@
+/* Login Page css */
+
+.login {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background: rgb(0, 0, 0);
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+.icon #brr{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position:absolute;
+  border: solid 1px white;
+  border-radius: 30px;
+  cursor: pointer;
+  background-color: white;
+  padding: 5px;
+  margin-left: 30px;
+}
+.logimg {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.logimg img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+}
+.wel h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 400;
+}
+.fbut {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.fbut button {
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  background-color: #4c5ca6;
+}
+.google {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.google button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: white;
+  color: black;
+}
+.google img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 3vh;
+}
+.logmail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.logmail mat-form-field {
+  width: 300px;
+}
+.logmail h3 {
+  font-weight: 500;
+  color: rgb(94, 93, 93);
+  opacity: 2;
+}
+.low {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.low button {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 300px;
+  background-color: #4c5ca6;
+}
+.low p {
+  font-weight: 500;
+  color: rgb(94, 93, 93);
+  opacity: 2;
+}
+.new {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.new h4 {
+  color: rgb(94, 93, 93);
+  font-weight: 500;
+  opacity: 2;
+}
+.new a:hover {
+  color: blue;
+  font-weight: bolder;
+  opacity: 0.8;
+}
