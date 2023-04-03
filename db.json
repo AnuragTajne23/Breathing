@@ -20,7 +20,6 @@
         "../../assets/music/Relaxation/calming-sounds-124055.mp3",
         "../../assets/music/Relaxation/endless-by-prabajithk-118998.mp3",
         "../../assets/music/Relaxation/healing-music-121007.mp3"
-
       ]
     },
     {
@@ -71,7 +70,7 @@
       "id": 7,
       "title": "Sky Walk",
       "image": "https://cdn.pixabay.com/photo/2016/11/18/15/05/beach-1835213_960_720.jpg",
-        "song": [
+      "song": [
         "../../assets/music/Sky-walk/Sky-walk1.mp3",
         "../../assets/music/Sky-walk/Sky-walk2.mp3",
         "../../assets/music/Sky-walk/Sky-walk3.mp3",
@@ -163,6 +162,12 @@
       "email": "vaibhav@gmail.com",
       "password": "Pass@1234",
       "id": 5
+    },
+    {
+      "fname": "Ritesh Zope",
+      "email": "riteshzope12@gmail.com",
+      "password": "Pass@1234",
+      "id": 6
     }
   ],
   "sleep": [
