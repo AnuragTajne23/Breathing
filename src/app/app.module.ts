@@ -22,6 +22,9 @@ import { MeditationComponent } from './meditation/meditation.component';
 import { RelaxComponent } from './relax/relax.component';
 import { SettingsComponent } from './settings/settings.component';
 import { SleepsongsComponent } from './sleepsongs/sleepsongs.component';
+import { ProfileComponent } from './profile/profile.component';
+import { ManageComponent } from './manage/manage.component';
+import { TimerComponent } from './timer/timer.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +42,10 @@ import { SleepsongsComponent } from './sleepsongs/sleepsongs.component';
     MeditationComponent,
     RelaxComponent,
     SettingsComponent,
-    SleepsongsComponent
+    SleepsongsComponent,
+    ProfileComponent,
+    ManageComponent,
+    TimerComponent
   ],
   imports: [
     BrowserModule,

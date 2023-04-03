@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lobster&family=Roboto&family=Zeyada&display=swap");
+.manage {
+  height: 80%;
+  background: #649173;
+  background: -webkit-linear-gradient(to right, #dbd5a4, #649173);
+  background: linear-gradient(to right, #dbd5a4, #649173);
+}
+.manage mat-tab-group {
+  margin-bottom: 48px;
+  margin-top: 50px;
+}
+.subscription h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  font-family: "dancing script";
+}
+#icon {
+  color: rgb(28, 28, 77);
+}
+.community {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  align-items: center;
+  height: 100%;
+}
+.community strong {
+  font-size: 25px;
+  color: rgb(16, 66, 16);
+}
+.community span {
+  font-size: 20px;
+  color: rgb(33, 97, 33);
+}
+.community button {
+  height: 35px;
+}
+
+.pro {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  align-items: center;
+  height: 100%;
+}
+.pro strong {
+  font-size: 25px;
+  color: rgb(16, 66, 16);
+}
+.pro span {
+  font-size: 20px;
+  color: rgb(33, 97, 33);
+}
+.pro button {
+  height: 35px;
+}
+
+.premium {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  align-items: center;
+  height: 100%;
+}
+.premium strong {
+  font-size: 25px;
+  color: rgb(16, 66, 16);
+}
+.premium span {
+  font-size: 20px;
+  color: rgb(33, 97, 33);
+}
+.premium button {
+  height: 35px;
+}

@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lobster&family=Roboto&family=Zeyada&display=swap");
+.medititle{
+  display: flex;
+  justify-content: center;
+}
+.medititle h3{
+  font-family: "dancing script";
+  font-size: 35px;
+  color:rgb(10, 7, 63);
+}
+.music {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin: 20px;
+}
+.card {
+  max-width: 400px;
+  max-height: 300px;
+  padding: 10px;
+  margin: 7px;
+  cursor: pointer;
+}
+.card img {
+  height: 50vh;
+  width: 100%;
+}
+.card mat-card-title {
+  text-align: center;
+  font-size: medium;
+}
+
+
+@media screen and (max-width: 480px) {
+  .medititle h3{
+    font-size: 22px;
+    margin-top: 5px;
+  }
+  .music {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .card {
+    margin: 4px;
+    padding: 0;
+  }
+  .card img {
+    height: 20vh;
+    width: 100%;
+  }
+  .card mat-card-title {
+    font-size: 10px;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 1380px) {
+ .medititle h3{
+    font-size: 32px;
+    margin-top: 5px;
+  }
+  .music {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+  .card {
+    margin: 4px;
+    padding: 0;
+  }
+  .card img {
+    height: 20vh;
+    width: 100%;
+  }
+  .card mat-card-title {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 1080px){
+.medititle h3{
+    font-size: 42px;
+    margin-top: 10px;
+  }
+
+}

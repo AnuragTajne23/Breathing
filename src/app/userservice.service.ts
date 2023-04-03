@@ -23,6 +23,9 @@ this.http.get<any>('http://localhost:3000/user').subscribe(res=>{
     alert("Login Successful")
     this.router.navigate(['getstart'])
     this.userinfo=user
+    localStorage.setItem('userName',JSON.stringify(user.fname));
+    
+    localStorage.setItem('email',JSON.stringify(user.email));
   }
   else{
     alert("Login Failed")

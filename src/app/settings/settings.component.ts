@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostBinding } from '@angular/core';
 
 @Component({
   selector: 'app-settings',
@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./settings.component.css']
 })
 export class SettingsComponent {
+  @HostBinding('class.dark-mode') isDarkMode = false;
 
+  toggleDarkMode() {
+    this.isDarkMode = !this.isDarkMode;
+  }
 }

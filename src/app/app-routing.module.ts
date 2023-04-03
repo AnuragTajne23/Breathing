@@ -1,3 +1,6 @@
+import { TimerComponent } from './timer/timer.component';
+import { ManageComponent } from './manage/manage.component';
+import { ProfileComponent } from './profile/profile.component';
 import { SleepsongsComponent } from './sleepsongs/sleepsongs.component';
 import { SettingsComponent } from './settings/settings.component';
 import { RelaxComponent } from './relax/relax.component';
@@ -30,6 +33,9 @@ const routes: Routes = [
   { path:'relax', component:RelaxComponent},
   { path:'settings', component:SettingsComponent},
   { path:'sleepsongs', component:SleepsongsComponent},
+  { path:'profile', component:ProfileComponent},
+  { path:'manage', component:ManageComponent},
+  { path:'timer', component:TimerComponent}
 
 ];
 

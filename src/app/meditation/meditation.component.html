@@ -1,1 +1,13 @@
-<p>meditation works!</p>
+<app-navbar></app-navbar>
+<div class="medititle">
+  <h3>Meditations</h3>
+</div>
+<div class="music">
+  <div class="library" *ngFor="let item of imgName">
+    <mat-card (click)="Songs(item.id)" class="card">
+      <img mat-card-image src="{{ item.image }}" alt="">
+      <mat-card-title>{{ item.title }}</mat-card-title>
+    </mat-card>
+  </div>
+</div>
+<app-footer></app-footer>

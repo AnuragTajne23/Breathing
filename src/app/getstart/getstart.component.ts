@@ -10,7 +10,7 @@ export class GetstartComponent implements OnInit {
 
 constructor(private http:UserserviceService){}
 
-username=this.http.userinfo
+username=window.localStorage.getItem('userName');
 
 ngOnInit(): void {
   console.log(this.username);

@@ -69,7 +69,9 @@
   margin-left: 25px;
   justify-content: center;
   align-items: center;
-  color: darkblue;
+  color: rgb(10, 7, 63);
+  font-family: "dancing script";
+  font-size: 30px;
 }
 
 /* Media Queries Section */

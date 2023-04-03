@@ -1,0 +1,15 @@
+
+.settinginfo span,mat-icon{
+  cursor: pointer;
+}
+.example-icon {
+  padding: 0 14px;
+}
+.example-spacer {
+  flex: 1 1 auto;
+}
+.version {
+  display: flex;
+  justify-content: center;
+  color: rgb(22, 22, 228);
+}
