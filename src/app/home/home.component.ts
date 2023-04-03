@@ -11,8 +11,8 @@ export class HomeComponent implements OnInit {
   hour = this.mydate.getHours();
   Wish = `Good ${
     (this.hour < 12 && 'Morning') ||
-    (this.hour < 17 && 'Afternoon') ||
-    (this.hour < 20 && 'Evening') ||
+    (this.hour < 13 && 'Afternoon') ||
+    (this.hour < 18 && 'Evening') ||
     (this.hour < 24 && 'Night')
   }`;
 
