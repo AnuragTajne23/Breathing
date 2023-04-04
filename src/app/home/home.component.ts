@@ -11,17 +11,17 @@ export class HomeComponent implements OnInit {
   hour = this.mydate.getHours();
   Wish = `Good ${
     (this.hour < 12 && 'Morning') ||
-    (this.hour < 13 && 'Afternoon') ||
-    (this.hour < 18 && 'Evening') ||
-    (this.hour < 24 && 'Night')
+    (this.hour < 17 && 'Afternoon') ||
+    (this.hour < 20 && 'Evening') ||
+    (this.hour > 21 && 'Night')
   }`;
 
   constructor(private http: MeditateService) {}
-  imgName:any
+  imgName: any;
   ngOnInit(): void {
-    this.http.meditate().subscribe(res=>{
-      this.imgName=res
-    })
+    this.http.meditate().subscribe((res) => {
+      this.imgName = res;
+    });
   }
-  username=window.localStorage.getItem('userName');
+  username = window.localStorage.getItem('userName');
 }
