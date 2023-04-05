@@ -13,7 +13,7 @@ export class HomeComponent implements OnInit {
     (this.hour < 12 && 'Morning') ||
     (this.hour < 17 && 'Afternoon') ||
     (this.hour < 20 && 'Evening') ||
-    (this.hour > 21 && 'Night')
+    (this.hour < 21 && 'Night')
   }`;
 
   constructor(private http: MeditateService) {}
