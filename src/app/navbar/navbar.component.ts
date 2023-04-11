@@ -1,3 +1,4 @@
+import { Router } from '@angular/router';
 import { Component } from '@angular/core';
 
 @Component({
@@ -7,4 +8,10 @@ import { Component } from '@angular/core';
 })
 export class NavbarComponent {
 
+  constructor(private router:Router){}
+  logout(){
+    this.router.navigate(['/']);
+    window.localStorage.removeItem('userName');
+   window.localStorage.removeItem('email');
+  }
 }
